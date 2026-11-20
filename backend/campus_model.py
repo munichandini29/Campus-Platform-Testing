@@ -46,7 +46,7 @@ def classify(text):
 
 
 def breached(value):
-    return value >= TEMP_LIMIT   # TEMP_LIMIT = 28.0
+    return value > TEMP_LIMIT   # TEMP_LIMIT = 28.0
 
 
 def valid_duration(minutes):
